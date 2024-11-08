@@ -1,0 +1,83 @@
+
+body {
+	background-color: #FEFCE5;
+}
+
+.title{
+font-family: Kiln Sans;
+font-size: 1.2em;
+text-align: center;
+}
+
+.bodycopy{
+font-family:Adobe Caslon Pro;
+font-size: 4em;
+text-align: center;
+}
+
+.imageChanger{
+text-align: center;
+}
+
+
+ .myImage {
+display: none; /* Hide the image initially */
+margin-top: 10px;
+}
+
+.div1{
+	height:10vh;
+	width: auto;
+}
+
+.div2{
+	height: 300px;
+	width: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.div2 img{
+	height: 300px;
+	width: auto;
+	visibility: hidden;
+}
+
+.div3{
+	height:15vh;
+	width: auto;
+}
+
+.div3 button{
+	margin-right: 21%;
+	background-color: white;
+	font-family: Adobe Caslon Pro;
+	border: 1px solid darkblue;
+	padding: 5px;
+
+}
+
+#startButton {
+	margin-left:17%;
+}
+
+#image4 {
+	width: 95%;
+}
+
+.div4{
+	height:15vh;
+	width: auto;
+}
+
+
+
+/* ---laptop ---- */
+
+@media only screen
+And (min-width: 2304 px)
+And (orientation: landscape)
+{
+}
+
+
